@@ -12,6 +12,8 @@ D) Number, string, bigint, undefined, boolean
 
 Answer: A
 
+Hint: There are 6 primitive types
+
 #### 2. What is the difference between JS and ECMAScript?
 
 A) ECMAScript is the Aussie version of JS. All variable names must be prepended with gDayMate
@@ -19,6 +21,8 @@ A) ECMAScript is the Aussie version of JS. All variable names must be prepended 
 B) ECMAScript is a standard for scripting languages such as JS, JScript, etc while JS is a language based on ECMAScript
 
 Answer: B
+
+Hint: It's definitely not A
 
 #### 3. What is the convention for naming variables in JS?
 
@@ -31,6 +35,8 @@ C) Lower case e.g. `let scoobysays = 'rooby roo'`
 D) Camel case e.g. `const camelSays = 'Would you mind turning the volume down please? I've got work tomorrow'`
 
 Answer: D
+
+Hint: Hump
 
 #### 4. What will the following function return?
 
@@ -55,3 +61,33 @@ C) 'The weather will be warm today with a wind speed of 25km/hr'
 D) An error
 
 Answer: D
+
+Hint: Variable scope
+
+#### 5. What will the following function return?
+
+```
+const wind = 25;
+
+const weather = (temperature) => {
+  if (temperature > 20) {
+    return console.log(
+      `The weather will be warm today with a wind speed of ${wind}km/hr`
+    );
+  }
+};
+
+weather(22);
+```
+
+A) The weather will be warm today with a wind speed of 25km/hr
+
+B) Null
+
+C) 'The weather will be warm today with a wind speed of 25km/hr'
+
+D) An error
+
+Answer: A
+
+Hint: Variable scope
