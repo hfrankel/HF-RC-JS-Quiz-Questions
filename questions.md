@@ -90,4 +90,31 @@ D) An error
 
 Answer: A
 
-Hint: Variable scope
+Hint: Scope lookup
+
+#### 6. What will be the outcome from the following?
+
+```
+let monty = 'burns';
+let homer = 'simpson';
+
+const x = monty;
+const y = homer;
+
+monty = 'release the hounds';
+homer = 'doh!'
+
+console.log(monty, homer, x, y);
+```
+
+A) Undefined
+
+B) release the hounds doh! release the hounds doh!
+
+C) release the hounds doh! burns simpson
+
+D) An error
+
+Answer: C
+
+Hint: Copy vs reference
