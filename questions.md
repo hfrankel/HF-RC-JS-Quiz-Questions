@@ -118,3 +118,35 @@ D) An error
 Answer: C
 
 Hint: Copy vs reference
+
+#### 7. What will be the outcome from the following?
+
+```
+const numbers = [1, 2, 3, 4, 5];
+const newNumbers = numbers;
+
+newNumbers[0] = 6;
+
+console.log(newNumbers);
+console.log(numbers);
+```
+
+A)
+\[1, 2, 3, 4, 5]
+[6, 1, 2, 3, 4, 5]
+
+B)
+[6, 1, 2, 3, 4, 5]
+\[1, 2, 3, 4, 5]
+
+C)
+[6, 2, 3, 4, 5]
+\[6, 2, 3, 4, 5]
+
+D)
+[6, 2, 3, 4, 5]
+\[1, 2, 3, 4, 5]
+
+Answer: C
+
+Hint: Copy vs reference
