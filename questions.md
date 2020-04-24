@@ -150,3 +150,31 @@ D)
 Answer: C
 
 Hint: Copy vs reference
+
+#### 8. What will be the outcome from the following?
+
+```
+whereAreTheyTakingTheHobbits('Isengard')
+
+function whereAreTheyTakingTheHobbits(place) {
+  console.log(`They're taking the hobbits to ${place}!`);
+}
+
+(function () {
+  console.log("They're taking the hobbits to Isengard!");
+})();
+```
+
+A)
+They're taking the hobbits to Isengard!
+They're taking the hobbits to Isengard!
+
+B) An error
+
+C) They're taking the hobbits to Isengard!
+
+D) Undefined
+
+Answer: A
+
+Hint: Hoisting. Named vs anonymous functions
