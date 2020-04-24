@@ -179,4 +179,4 @@ They're taking the hobbits to Isengard!
 
 Answer: A
 
-Hint: Hoisting. Named vs anonymous functions
+Hint: Hoisting. Named functions, function expressions
