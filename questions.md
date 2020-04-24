@@ -156,24 +156,26 @@ Hint: Copy vs reference
 ```
 whereAreTheyTakingTheHobbits('Isengard')
 
+(function () {
+  console.log("What did you say?");
+})();
+
 function whereAreTheyTakingTheHobbits(place) {
   console.log(`They're taking the hobbits to ${place}!`);
 }
-
-(function () {
-  console.log("They're taking the hobbits to Isengard!");
-})();
 ```
 
 A)
 They're taking the hobbits to Isengard!
-They're taking the hobbits to Isengard!
+What did you say?
 
 B) An error
 
 C) They're taking the hobbits to Isengard!
 
-D) Undefined
+D)
+What did you say?
+They're taking the hobbits to Isengard!
 
 Answer: A
 
