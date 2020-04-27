@@ -180,3 +180,24 @@ They're taking the hobbits to Isengard!
 Answer: A
 
 Hint: Hoisting. Named functions, function expressions
+
+#### 9. What will be the outcome from the following?
+
+```
+  1 == 1
+  1 == '1'
+  1 === '1'
+  '1' + '1' == 1 + 1
+```
+
+A) True, True, True, True
+
+B) True, True, False, False
+
+C) True, True, False, True
+
+D) False, False, False, False
+
+Answer: B
+
+Hint: Type coercion
